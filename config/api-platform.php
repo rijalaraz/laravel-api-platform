@@ -123,12 +123,12 @@ return [
         //    'url' => 'https://www.example.com/support',
         //    'email' => 'support@example.com',
         // ],
-        // 'http_auth' => [
-        //    'Personal Access Token' => [
-        //        'scheme' => 'bearer',
-        //        'bearerFormat' => 'JWT'
-        //    ]
-        // ]
+        'http_auth' => [
+           'Personal Access Token' => [
+               'scheme' => 'bearer',
+               'bearerFormat' => 'JWT'
+           ]
+        ]
     ],
 
     // 'openapi' => [
